@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KevPeter Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+    </head>
+    <body>
+
+        <!-- Modal section -->
+        <div class="bg-modal">
+            <div class="modal-content">
+                <img src="img/Resume.jpg" class="resume__img">
+             </div>
+        </div>
+
+        <header>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <!-- intro section-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">Kevin Peter</h1>
+            <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/kevpeter/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <p class="social-list_text">LinkedIn</p>
+                </a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/KevPeter" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <p class="social-list_text">Github</p>
+                </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="#contact">
+                    <i class="fas fa-at"></i> 
+                    <p class="social-list_text">E-mail</p>
+                    </a>
+                </li>
+                <li class="social-list__item"><a class="resume__modal" href="#">
+                    <i class="fas fa-file-alt"></i>
+                    <p class="social-list_text">Resume</p>
+                </a>
+                </li>
+            </ul>
+            <img src="img/profile pic.png" alt="picture of kevin peter" class="intro__img">
+        </section>
+
+
+
+        <!-- About me section -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About me</h2>
+            <p class="section__subtitle section subtitle--about"></p>
+
+            <div class="about-me__body">
+                <p>hey im kevin and im a software engineer doing software engineer things, please hire me </p>
+
+            </div>
+        </section>
+
+        <!--Projects-->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <p class="section__subtitle"></p>
+
+            <div class="portfolio">
+
+            </div>
+        </section>
+
+        <!--Contact-->
+        <section class="contact-me" id="contact">
+        <div class="contact-container">
+        <h2 class="section__title" class="section__title--contact">Contact Me</h2>
+        <form class="contact-me-form" id="contact-form" method="post" action="contact-form.php">
+            <label>Name</label>
+            <input class="input-field" type="text" name="name" required>
+
+            <label>Subject</label>
+            <input class="input-field" type="text" name="subject">
+
+            <label>Email</label>
+            <input class="input-field" type="text" name="email" required>
+
+
+            <label>Message</label>
+            <textarea class="input-field" name="message" required></textarea>
+
+            <input class="submit-btn" type="submit" value="Send">
+
+        </form>
+        </div>
+        </section>
+
+
+    
+        <!--footer-->
+        <footer class="footer">
+
+        </footer>
+
+
+    </body>
+</html>
